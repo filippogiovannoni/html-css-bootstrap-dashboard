@@ -1,0 +1,39 @@
+/* Debug Rules */
+
+.debug #site_header {
+    background-color: red;
+    height: 85px;
+}
+
+.debug .logo {
+    height: 85px;
+    aspect-ratio: 1;
+    background-color: blue;
+}
+.debug .link {
+    height: 85px;
+    width: 120px;
+    background-color: rgb(217, 255, 0);
+    border: 2px dashed black;
+}
+
+.debug #site_main {
+    background-color: green;
+    height: 860px;
+}
+
+.debug .container {
+    background-color: purple;
+    height: 700px;
+}
+
+.debug .catalog, .debug .add {
+    height: 80px;
+    width: 220px;
+    background-color: aqua;
+}
+
+.debug table {
+    height: 585px;
+    background-color: orange;
+}
