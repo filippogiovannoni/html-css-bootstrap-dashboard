@@ -10,6 +10,7 @@
     aspect-ratio: 1;
     background-color: blue;
 }
+
 .debug .link {
     height: 85px;
     width: 120px;
@@ -27,7 +28,8 @@
     height: 700px;
 }
 
-.debug .catalog, .debug .add {
+.debug .catalog,
+.debug .add {
     height: 80px;
     width: 220px;
     background-color: aqua;
@@ -42,4 +44,8 @@
 
 .fs_7 {
     font-size: 13px;
+}
+
+.fs_8 {
+    font-size: 11px;
 }

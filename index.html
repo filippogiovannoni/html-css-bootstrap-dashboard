@@ -8,6 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="">
@@ -30,13 +33,164 @@
 
 
     <main id="site_main">
-        <div class="container">
+        <div class="container-sm container-md container-lg">
             <div class="top py-3 d-flex justify-content-between">
-                <div class="catalog"></div>
-                <div class="add"></div>
+                <div class="catalog">
+                    <h5 class="fw-normal">Catalogo Libri</h5>
+                </div>
+                <div class="add">
+                    <div class="btn btn-primary btn-sm">Aggiungi Libro</div>
+                </div>
             </div>
 
-            <table class="table"></table>
+            <table class="table table-striped">
+                <thead>
+                    <tr class="fs_8">
+                        <th scope="col">Titolo</th>
+                        <th scope="col">Data Prestito</th>
+                        <th scope="col">Stato</th>
+                        <th class="text-center" scope="col">Azioni</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="fs_7 fw-light">I pilastri della terra</span></td>
+                        <td>-</td>
+                        <td>
+                            <span class="badge text-bg-success fs_8">Disponibile</span>
+                        </td>
+                        <td class="text-center">
+                            <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
+                            <button type="button" class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="fs_7 fw-light">I promessi sposi</span></td>
+                        <td>-</td>
+                        <td>
+                            <span class="badge text-bg-success fs_8">Disponibile</span>
+                        </td>
+                        <td class="text-center">
+                            <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
+                            <button type="button" class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="fs_7 fw-light">Il signore degli anelli</span></td>
+                        <td><span class="fs_7 fw-light">18/10/2023</span></td>
+                        <td>
+                            <span class="badge text-bg-warning text-white fs_8">In prestito</span>
+                        </td>
+                        <td class="text-center">
+                            <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
+                            <button type="button" class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="fs_7 fw-light">Harry Potter e la pietra filosofale</span></td>
+                        <td>-</td>
+                        <td>
+                            <span class="badge text-bg-success fs_8">Disponibile</span>
+                        </td>
+                        <td class="text-center">
+                            <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
+                            <button type="button" class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="fs_7 fw-light">Il codice da Vinci</span></td>
+                        <td>-</td>
+                        <td>
+                            <span class="badge text-bg-danger fs_8">Non disponibile</span>
+                        </td>
+                        <td class="text-center">
+                            <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
+                            <button type="button" class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="fs_7 fw-light">Shining</span></td>
+                        <td>-</td>
+                        <td>
+                            <span class="badge text-bg-success fs_8">Disponibile</span>
+                        </td>
+                        <td class="text-center">
+                            <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
+                            <button type="button" class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="fs_7 fw-light">La Divina Commedia</span></td>
+                        <td><span class="fs_7 fw-light">21/09/2023</span></td>
+                        <td>
+                            <span class="badge text-bg-warning text-white fs_8">In prestito</span>
+                        </td>
+                        <td class="text-center">
+                            <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
+                            <button type="button" class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="fs_7 fw-light">Il trono di spade</span></td>
+                        <td>-</td>
+                        <td>
+                            <span class="badge text-bg-success fs_8">Disponibile</span>
+                        </td>
+                        <td class="text-center">
+                            <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
+                            <button type="button" class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="fs_7 fw-light">Il mondo di Sofia</span></td>
+                        <td>-</td>
+                        <td>
+                            <span class="badge text-bg-danger fs_8">Non disponibile</span>
+                        </td>
+                        <td class="text-center">
+                            <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
+                            <button type="button" class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="fs_7 fw-light">Le cronache di Narnia: il leone, la strega e l'armadio</span>
+                        </td>
+                        <td><span class="fs_7 fw-light">25/07/2023</span></td>
+                        <td>
+                            <span class="badge text-bg-success fs_8">Disponibile</span>
+                        </td>
+                        <td class="text-center">
+                            <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
+                            <button type="button" class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="fs_7 fw-light">Il piccolo principe</span></td>
+                        <td>-</td>
+                        <td>
+                            <span class="badge text-bg-success fs_8">Disponibile</span>
+                        </td>
+                        <td class="text-center">
+                            <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
+                            <button type="button" class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="fs_7 fw-light">La storia infinita</span></td>
+                        <td>-</td>
+                        <td>
+                            <span class="badge text-bg-success fs_8">Disponibile</span>
+                        </td>
+                        <td class="text-center">
+                            <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
+                            <button type="button" class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
+                        </td>
+                    </tr>
+
+
+
+                </tbody>
+            </table>
         </div>
     </main>
     <!-- /#site_main -->
