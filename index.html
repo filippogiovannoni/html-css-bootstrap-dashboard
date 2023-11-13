@@ -108,10 +108,50 @@
                         <td>
                             <span class="badge text-bg-success fs_8">Disponibile</span>
                         </td>
-                        <td class="d-flex gap-1 text-center">
+                        <td class="d-flex gap-1 justify-content-center">
                             <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
-                            <button type="button" class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
+                            <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTrash"
+                                aria-controls="offcanvasTrash"
+                                class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
                         </td>
+
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasTrash"
+                            aria-labelledby="offcanvasTrashLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasTrashLabel">Elimina Libro</h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div class="dropdown open mb-3">
+                                    <button class="btn btn-danger dropdown-toggle" type="button" id="triggerId"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Seleziona il libro da eliminare
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="triggerId">
+                                        <button class="dropdown-item" href="#">I pilastri della terra</button>
+                                        <button class="dropdown-item" href="#">I promessi sposi</button>
+                                        <button class="dropdown-item" href="#">Il signore degli anelli</button>
+                                        <button class="dropdown-item" href="#">Harry Potter e la pietra
+                                            filosofale</button>
+                                        <button class="dropdown-item" href="#">Il codice da Vinci</button>
+                                        <button class="dropdown-item" href="#">Shining</button>
+                                        <button class="dropdown-item" href="#">La Divina Commedia</button>
+                                        <button class="dropdown-item" href="#">Il trono di spade</button>
+                                        <button class="dropdown-item" href="#">Il mondo di Sofia</button>
+                                        <button class="dropdown-item" href="#">Le cronache di Narnia: il leone, la
+                                            strega e l'armadio</button>
+                                        <button class="dropdown-item" href="#">Il piccolo principe</button>
+                                        <button class="dropdown-item" href="#">La storia infinita</button>
+
+                                    </div>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary">Invia</button>
+
+                            </div>
+                        </div>
+
                     </tr>
                     <tr>
                         <td>
@@ -121,9 +161,11 @@
                         <td>
                             <span class="badge text-bg-success fs_8">Disponibile</span>
                         </td>
-                        <td class="d-flex gap-1 text-center">
+                        <td class="d-flex gap-1 justify-content-center">
                             <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
-                            <button type="button" class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
+                            <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTrash"
+                                aria-controls="offcanvasTrash"
+                                class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
                         </td>
                     </tr>
                     <tr>
@@ -136,9 +178,11 @@
                         <td>
                             <span class="badge text-bg-warning text-white fs_8">In prestito</span>
                         </td>
-                        <td class="d-flex gap-1 text-center">
+                        <td class="d-flex gap-1 justify-content-center">
                             <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
-                            <button type="button" class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
+                            <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTrash"
+                                aria-controls="offcanvasTrash"
+                                class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
                         </td>
                     </tr>
                     <tr>
@@ -149,9 +193,11 @@
                         <td>
                             <span class="badge text-bg-success fs_8">Disponibile</span>
                         </td>
-                        <td class="d-flex gap-1 text-center">
+                        <td class="d-flex gap-1 justify-content-center">
                             <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
-                            <button type="button" class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
+                            <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTrash"
+                                aria-controls="offcanvasTrash"
+                                class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
                         </td>
                     </tr>
                     <tr>
@@ -162,9 +208,11 @@
                         <td>
                             <span class="badge text-bg-danger fs_8">Non disponibile</span>
                         </td>
-                        <td class="d-flex gap-1 text-center">
+                        <td class="d-flex gap-1 justify-content-center">
                             <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
-                            <button type="button" class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
+                            <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTrash"
+                                aria-controls="offcanvasTrash"
+                                class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
                         </td>
                     </tr>
                     <tr>
@@ -175,9 +223,11 @@
                         <td>
                             <span class="badge text-bg-success fs_8">Disponibile</span>
                         </td>
-                        <td class="d-flex gap-1 text-center">
+                        <td class="d-flex gap-1 justify-content-center">
                             <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
-                            <button type="button" class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
+                            <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTrash"
+                                aria-controls="offcanvasTrash"
+                                class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
                         </td>
                     </tr>
                     <tr>
@@ -190,9 +240,11 @@
                         <td>
                             <span class="badge text-bg-warning text-white fs_8">In prestito</span>
                         </td>
-                        <td class="d-flex gap-1 text-center">
+                        <td class="d-flex gap-1 justify-content-center">
                             <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
-                            <button type="button" class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
+                            <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTrash"
+                                aria-controls="offcanvasTrash"
+                                class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
                         </td>
                     </tr>
                     <tr>
@@ -203,9 +255,11 @@
                         <td>
                             <span class="badge text-bg-success fs_8">Disponibile</span>
                         </td>
-                        <td class="d-flex gap-1 text-center">
+                        <td class="d-flex gap-1 justify-content-center">
                             <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
-                            <button type="button" class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
+                            <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTrash"
+                                aria-controls="offcanvasTrash"
+                                class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
                         </td>
                     </tr>
                     <tr>
@@ -216,9 +270,11 @@
                         <td>
                             <span class="badge text-bg-danger fs_8">Non disponibile</span>
                         </td>
-                        <td class="d-flex gap-1 text-center">
+                        <td class="d-flex gap-1 justify-content-center">
                             <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
-                            <button type="button" class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
+                            <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTrash"
+                                aria-controls="offcanvasTrash"
+                                class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
                         </td>
                     </tr>
                     <tr>
@@ -231,9 +287,11 @@
                         <td>
                             <span class="badge text-bg-success fs_8">Disponibile</span>
                         </td>
-                        <td class="d-flex gap-1 text-center">
+                        <td class="d-flex gap-1 justify-content-center">
                             <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
-                            <button type="button" class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
+                            <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTrash"
+                                aria-controls="offcanvasTrash"
+                                class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
                         </td>
                     </tr>
                     <tr>
@@ -244,9 +302,11 @@
                         <td>
                             <span class="badge text-bg-success fs_8">Disponibile</span>
                         </td>
-                        <td class="d-flex gap-1 text-center">
+                        <td class="d-flex gap-1 justify-content-center">
                             <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
-                            <button type="button" class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
+                            <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTrash"
+                                aria-controls="offcanvasTrash"
+                                class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
                         </td>
                     </tr>
                     <tr>
@@ -257,9 +317,11 @@
                         <td>
                             <span class="badge text-bg-success fs_8">Disponibile</span>
                         </td>
-                        <td class="d-flex gap-1 text-center">
+                        <td class="d-flex gap-1 justify-content-center">
                             <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
-                            <button type="button" class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
+                            <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTrash"
+                                aria-controls="offcanvasTrash"
+                                class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
                         </td>
                     </tr>
                 </tbody>
