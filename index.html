@@ -15,32 +15,35 @@
 
 <body class="">
 
-    <header class="bg-dark" id="site_header">
-        <nav class="d-flex align-items-center justify-content-between justify-content-lg-start">
-            <div class="logo m-2 me-3">
-                <img width="50px" src="./img/duck.png" alt="">
-            </div>
-            <div class="links d-none d-lg-flex align-items-center gap-3 fs_7">
-                <a class="text-decoration-none text-white" href="#">Catalogo Libri</a>
-                <a class="text-decoration-none text-secondary" href="#">Anagrafica Utenti</a>
-                <a class="text-decoration-none text-secondary" href="#">Storico Prestiti</a>
-                <a class="text-decoration-none text-secondary" href="#">Help</a>
-            </div>
-
-            <div class="dropdown d-lg-none me-3">
-                <button class="btn btn-outline-secondary" type="button" id="dropdownMenuButton1"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    <i class="fa-solid fa-bars"></i>
+    <header id="site_header">
+        
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand ms-2" href="#">
+                    <img width="60px" src="./img/duck.png" alt="">
+                </a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <li><a class="dropdown-item" href="#">Catalogo Libri</a></li>
-                    <li><a class="dropdown-item" href="#">Anagrafica Utenti</a></li>
-                    <li><a class="dropdown-item" href="#">Storico Prestiti</a></li>
-                    <li><a class="dropdown-item" href="#">Help</a></li>
-                </ul>
-            </div>
-
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#" aria-current="page">Catalogo Libri<span class="visually-hidden">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Anagrafica Utenti</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Storico Prestiti</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Help</a>
+                        </li>
+                    </ul>
+          </div>
         </nav>
+        
+
     </header>
     <!-- /#site_header -->
 
