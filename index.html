@@ -109,11 +109,40 @@
                             <span class="badge text-bg-success fs_8">Disponibile</span>
                         </td>
                         <td class="d-flex gap-1 justify-content-center">
-                            <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
+
+                            <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasEdit"
+                                aria-controls="offcanvasEdit"
+                                class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
+
                             <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTrash"
                                 aria-controls="offcanvasTrash"
                                 class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
                         </td>
+
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasEdit"
+                            aria-labelledby="offcanvasEditLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasEditLabel">Modifica Libro</h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div class="mb-3">
+                                    <label for="" class="form-label">Modifica Nome Libro</label>
+                                    <input type="text" name="titleEdit" id="titleEdit" class="form-control"
+                                        placeholder="" aria-describedby="titleEditHelper">
+                                    <small id="titleEditHelper" class="text-muted">Modifica il titolo del libro</small>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="" class="form-label">Modifica la data del prestito</label>
+                                    <input type="date" name="dateEditLoan" id="dateEditLoan" class="form-control"
+                                        placeholder="" aria-describedby="dateEditHelp" required>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary">Invia</button>
+
+                            </div>
+                        </div>
 
                         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasTrash"
                             aria-labelledby="offcanvasTrashLabel">
@@ -162,7 +191,9 @@
                             <span class="badge text-bg-success fs_8">Disponibile</span>
                         </td>
                         <td class="d-flex gap-1 justify-content-center">
-                            <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
+                            <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasEdit"
+                                aria-controls="offcanvasEdit"
+                                class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
                             <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTrash"
                                 aria-controls="offcanvasTrash"
                                 class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
@@ -179,7 +210,9 @@
                             <span class="badge text-bg-warning text-white fs_8">In prestito</span>
                         </td>
                         <td class="d-flex gap-1 justify-content-center">
-                            <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
+                            <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasEdit"
+                                aria-controls="offcanvasEdit"
+                                class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
                             <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTrash"
                                 aria-controls="offcanvasTrash"
                                 class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
@@ -194,7 +227,9 @@
                             <span class="badge text-bg-success fs_8">Disponibile</span>
                         </td>
                         <td class="d-flex gap-1 justify-content-center">
-                            <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
+                            <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasEdit"
+                                aria-controls="offcanvasEdit"
+                                class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
                             <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTrash"
                                 aria-controls="offcanvasTrash"
                                 class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
@@ -209,7 +244,9 @@
                             <span class="badge text-bg-danger fs_8">Non disponibile</span>
                         </td>
                         <td class="d-flex gap-1 justify-content-center">
-                            <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
+                            <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasEdit"
+                                aria-controls="offcanvasEdit"
+                                class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
                             <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTrash"
                                 aria-controls="offcanvasTrash"
                                 class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
@@ -224,7 +261,9 @@
                             <span class="badge text-bg-success fs_8">Disponibile</span>
                         </td>
                         <td class="d-flex gap-1 justify-content-center">
-                            <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
+                            <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasEdit"
+                                aria-controls="offcanvasEdit"
+                                class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
                             <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTrash"
                                 aria-controls="offcanvasTrash"
                                 class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
@@ -241,7 +280,9 @@
                             <span class="badge text-bg-warning text-white fs_8">In prestito</span>
                         </td>
                         <td class="d-flex gap-1 justify-content-center">
-                            <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
+                            <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasEdit"
+                                aria-controls="offcanvasEdit"
+                                class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
                             <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTrash"
                                 aria-controls="offcanvasTrash"
                                 class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
@@ -256,7 +297,9 @@
                             <span class="badge text-bg-success fs_8">Disponibile</span>
                         </td>
                         <td class="d-flex gap-1 justify-content-center">
-                            <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
+                            <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasEdit"
+                                aria-controls="offcanvasEdit"
+                                class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
                             <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTrash"
                                 aria-controls="offcanvasTrash"
                                 class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
@@ -271,7 +314,9 @@
                             <span class="badge text-bg-danger fs_8">Non disponibile</span>
                         </td>
                         <td class="d-flex gap-1 justify-content-center">
-                            <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
+                            <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasEdit"
+                                aria-controls="offcanvasEdit"
+                                class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
                             <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTrash"
                                 aria-controls="offcanvasTrash"
                                 class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
@@ -288,7 +333,9 @@
                             <span class="badge text-bg-success fs_8">Disponibile</span>
                         </td>
                         <td class="d-flex gap-1 justify-content-center">
-                            <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
+                            <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasEdit"
+                                aria-controls="offcanvasEdit"
+                                class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
                             <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTrash"
                                 aria-controls="offcanvasTrash"
                                 class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
@@ -303,7 +350,9 @@
                             <span class="badge text-bg-success fs_8">Disponibile</span>
                         </td>
                         <td class="d-flex gap-1 justify-content-center">
-                            <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
+                            <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasEdit"
+                                aria-controls="offcanvasEdit"
+                                class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
                             <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTrash"
                                 aria-controls="offcanvasTrash"
                                 class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
@@ -318,7 +367,9 @@
                             <span class="badge text-bg-success fs_8">Disponibile</span>
                         </td>
                         <td class="d-flex gap-1 justify-content-center">
-                            <button type="button" class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
+                            <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasEdit"
+                                aria-controls="offcanvasEdit"
+                                class="btn btn-outline-secondary fa-solid fa-pen fs_8 p-2"></button>
                             <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTrash"
                                 aria-controls="offcanvasTrash"
                                 class="btn btn-outline-secondary fa-solid fa-trash fs_8 p-2"></button>
